@@ -8,15 +8,15 @@ int main()
   scanf("%d",&a);
   if(a>0)
   {
-    printf("\n The given number is Possitive");
+    printf("\n The given number %d is Possitive",a);
   }
-  elseif(a<0)
+  else if(a<0)
   {
-    printf("\n The given number is negative");
+    printf("\n The given number %d is negative",a);
    }
-  elseif(a==0)
+  else if(a==0)
   {
-    printf("\n The given number is Zero");
+    printf("\n The given number %d is Zero",a);
   }
   getch();
 }
